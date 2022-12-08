@@ -1,0 +1,81 @@
+body{
+    background-color: #b9d7fd;
+}
+header{
+    background-color: #004AAD;
+}
+footer{
+    background-color: #004AAD;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    position: bottom fixed;
+}
+footer > p{
+    margin: 0;
+  }
+.nav{
+    background-color: #004bace3  ;
+    padding: 5px;
+}
+.dropdown-item{
+    background-color: #004AAD;
+}
+h1, a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#navegador{
+    padding: 0px;
+}
+.titulo{
+    margin-top: 35px;
+}
+th{
+    color: #004AAD;
+}
+h2{
+    color: #004AAD;
+    text-align: center;
+}
+h4{
+    color: #004AAD;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-areas:
+    'ney ney aside'
+    'lesao lesao aside'
+    'argentina argentina aside';
+    padding: 50px 10px 50px 5px;
+  }
+
+.balloon {
+    display: grid;
+    grid-area: aside;
+    max-width: 250px;
+    font-style: normal;
+    background-color: white;
+    box-shadow: 2px 2px 15px black ;
+    border-radius: 20px 5px 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;   
+  }
+ 
+  .ney{
+    display: grid;
+    grid-area: ney;
+    margin: 10px 50px 10px 50px;
+    height: fit-content;
+  }
+  .lesao{
+    display: grid;
+    grid-area: lesao;
+    margin: 10px 50px 10px 50px;
+  }
+  .argentina{
+    display: grid;
+    grid-area: argentina;
+    margin: 10px 50px 10px 50px;
+  }
